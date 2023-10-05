@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import { Button } from './ui/button';
 import Link from 'next/link';
-import { GithubIcon, LinkedinIcon } from 'lucide-react';
+import { GithubIcon, LinkedinIcon, TwitterIcon } from 'lucide-react';
 
 const Hero = ({ }) => {
     return (
@@ -21,6 +21,9 @@ const Hero = ({ }) => {
                     </Link>
                     <Link href="https://www.linkedin.com/in/michaelshimeles/" target='_blank' className='pt-3 cursor-pointer'>
                         <LinkedinIcon />
+                    </Link>
+                    <Link href="https://www.twitter.com/rasmickyy/" target='_blank' className='pt-3 cursor-pointer'>
+                        <TwitterIcon />
                     </Link>
                 </div>
             </div>
