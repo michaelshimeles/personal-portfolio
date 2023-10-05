@@ -1,7 +1,10 @@
 import React from 'react'
 import Image from 'next/image';
+import { Button } from './ui/button';
+import Link from 'next/link';
+import { GithubIcon, LinkedinIcon } from 'lucide-react';
 
-const Hero= ({ }) => {
+const Hero = ({ }) => {
     return (
         <div className='flex items-center gap-5 sm:w-[80%] md:w-[60%] lg:w-[50%] p-2'>
             <Image src="/pfp.png" width={150} height={150} alt='profile picture' className='rounded-full border-4' />
@@ -12,6 +15,14 @@ const Hero= ({ }) => {
                 <p className="leading-7 [&:not(:first-child)]:mt-3">
                     A Full Stack Engineer, with experience building and developing various products.
                 </p>
+                <div className='flex space-x-4'>
+                    <Link href="https://github.com/michaelshimeles" target='_blank' className='pt-3 cursor-pointer'>
+                        <GithubIcon />
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/michaelshimeles/" target='_blank' className='pt-3 cursor-pointer'>
+                        <LinkedinIcon />
+                    </Link>
+                </div>
             </div>
         </div>
     );
