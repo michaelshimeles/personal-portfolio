@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Michael Shimeles',
     description: 'Michael Shimeles is a Full Stack Engineer, with experience building production web applications',
-    images: ['/lolpfp.jpg']
+    images: ['/pfp2.jpg']
   }
 }
 
