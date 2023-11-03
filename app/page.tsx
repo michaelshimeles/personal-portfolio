@@ -8,8 +8,8 @@ export default function Home() {
       <Hero />
       <TechStack />
       <div className='flex flex-col justify-start sm:w-[80%] md:w-[70%] lg:w-[60%] mt-[2rem] mb-[4rem] p-4'>
-        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-          Projects I&apos;ve built:
+        <h2 className="mt-10 text-center lg:text-left scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          Projects I&apos;ve built
         </h2>
         <div className='flex flex-col w-full'>
           <ProjectCard image={'/starter.png'} title={'My Nextjs 14 Stater Template'} description={'This starter template saves me time when starting a project.'} urls={{
