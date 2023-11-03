@@ -13,7 +13,7 @@ const Hero = ({ }) => {
                     Hi, I&apos;m Michael Shimeles
                 </h1>
                 <p className="leading-7 [&:not(:first-child)]:mt-3">
-                    A Full Stack Engineer, with experience building and developing various products.
+                    A Full Stack Engineer, with experience building production web applications
                 </p>
                 <div className='flex space-x-4'>
                     <Link href="https://github.com/michaelshimeles" target='_blank' className='pt-3 cursor-pointer'>
