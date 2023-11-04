@@ -1,11 +1,12 @@
 import Navbar from '@/components/Navbar'
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import { ThemeProvider } from "@/components/theme-provider"
-import Head from 'next/head';
+import { Analytics } from '@vercel/analytics/react'
+import { GeistSans } from 'geist/font'
+import type { Metadata } from 'next'
+import Head from 'next/head'
+import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 
 export const metadata: Metadata = {
@@ -44,7 +45,7 @@ export default function RootLayout({
         <meta name="twitter:creator" content="@rasmickyy" />
         <link rel="canonical" href="https://www.michaelshimeles.com/" />
       </Head>
-      <body className={inter.className}>
+      <body className={GeistSans.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -53,6 +54,7 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
