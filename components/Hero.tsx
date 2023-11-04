@@ -3,11 +3,12 @@ import Image from 'next/image';
 import { Button } from './ui/button';
 import Link from 'next/link';
 import { GithubIcon, LinkedinIcon, TwitterIcon } from 'lucide-react';
+import { Separator } from "@/components/ui/separator"
 
 const Hero = ({ }) => {
     return (
-        <div className='flex flex-col md:flex-row justify-center items-center gap-5 sm:w-[80%] md:w-[65%] lg:w-[60%] p-4'>
-            <Image src="/pfp2.png" width={150} height={150} alt='profile picture' className='rounded-full border-4' />
+        <div className='flex flex-col md:flex-row justify-center items-center gap-5 sm:w-[80%] md:w-[85%] lg:w-[60%] p-4'>
+            <Image src="/pfp2.png" width={250} height={100} alt='profile picture' className='rounded-full border-4' />
             <div className='flex flex-col text-center md:text-left'>
                 <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl">
                     Hi, I&apos;m Michael Shimeles
@@ -26,6 +27,10 @@ const Hero = ({ }) => {
                         <TwitterIcon />
                     </Link>
                 </div>
+                <Separator className='my-4'/>
+                <p className="leading-7">
+                    Looking to hire me? I do freelance work through my agency <Link href="https://www.exoduslabs.xyz/" target='_blank'><span className='font-bold underline'>Exodus Labs</span></Link> or if your company is looking to hire, feel free to contact me at <Link href="mailto:michaelwasihun96@gmail.com"><span className='font-bold underline'>michaelwasihun96@gmail.com</span></Link>
+                </p>
             </div>
         </div>
     );
