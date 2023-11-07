@@ -6,11 +6,6 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between pt-10">
       <Hero />
-      {/* <div className='flex p-6 sm:w-[70%] md:w-[60%] lg:w-[50%]'>
-        <p className="leading-7 [&:not(:first-child)]:mt-6 text-center">
-          Looking to hire me? I do freelance work through my agency <Link href="https://www.exoduslabs.xyz/" target='_blank'><span className='font-bold underline'>Exodus Labs</span></Link> or if your company is looking to hire, feel free to contact me at <Link href="mailto:michaelwasihun96@gmail.com"><span className='font-bold underline'>michaelwasihun96@gmail.com</span></Link>
-        </p>
-      </div> */}
       <TechStack />
       <div className='flex flex-col justify-start sm:w-[80%] md:w-[70%] lg:w-[60%] mt-[2rem] mb-[4rem] p-4'>
         <h2 className="mt-10 text-center lg:text-left scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
