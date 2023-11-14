@@ -12,6 +12,11 @@ export default function Home() {
           Projects I&apos;ve built
         </h2>
         <div className='flex flex-col w-full'>
+          <ProjectCard image={'/socialpal.png'} title={'Social Pal AI'} description={"An AI-powered Social Media Assistant created to assist in enhancing your brand's online presence."} urls={{
+            github: "https://github.com/michaelshimeles/SocialPal",
+            website: "https://www.heysocialpal.com/"
+          }} />
+
           <ProjectCard image={'/starter.png'} title={'My Nextjs 14 Stater Template'} description={'This starter template saves me time when starting a project.'} urls={{
             github: "https://github.com/michaelshimeles/nextjs14-starter",
             website: null
