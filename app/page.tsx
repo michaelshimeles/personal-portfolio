@@ -1,7 +1,6 @@
 import Hero from '@/components/Hero'
 import ProjectCard from '@/components/ProjectCard'
 import TechStack from '@/components/TechStack'
-import Link from 'next/link'
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between pt-10">

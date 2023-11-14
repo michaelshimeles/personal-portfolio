@@ -33,18 +33,24 @@ export default function RootLayout({
         <meta name="twitter:creator" content="@rasmickyy" />
         <link rel="canonical" href="https://www.michaelshimeles.com/" />
       </Head>
-      <body className={GeistSans.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
+      <div
+        className="max-w-2xl w-full h-1/2 absolute top-0 right-0 -z-10 rounded-full bg-gradient-to-bl from-pink-800 via-blue-700/20 to-green-500/20 blur-3xl"
+      >
+        <body
+          className={GeistSans.className}
         >
-          <Navbar />
-          {children}
-          <Analytics />
-        </ThemeProvider>
-      </body>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Navbar />
+            {children}
+            <Analytics />
+          </ThemeProvider>
+        </body>
+      </div>
     </html>
   )
 }
