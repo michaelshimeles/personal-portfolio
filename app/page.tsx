@@ -1,6 +1,8 @@
 import Hero from '@/components/Hero'
 import ProjectCard from '@/components/ProjectCard'
 import TechStack from '@/components/TechStack'
+import RefreshIcon from '@/components/RefreshIcon'; // Make sure this path is correct
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between pt-10">
