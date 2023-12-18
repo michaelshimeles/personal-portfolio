@@ -13,6 +13,10 @@ export default function Home() {
           Projects I&apos;ve built
         </h2>
         <div className='flex flex-col w-full'>
+          <ProjectCard image={'/embed.png'} title={'EmbedChain AI'} description={"Store your Vector Embeddings Securely, Cost Effectively, & Permanently."} urls={{
+            github: null,
+            website: "https://embed.michaelshimeles.com/"
+          }} />
           <ProjectCard image={'/socialpal.png'} title={'Social Pal AI'} description={"An AI-powered Social Media Assistant created to assist in enhancing your brand's online presence."} urls={{
             github: "https://github.com/michaelshimeles/SocialPal",
             website: "https://www.heysocialpal.com/"
