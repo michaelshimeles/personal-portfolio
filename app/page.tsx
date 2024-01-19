@@ -13,6 +13,14 @@ export default function Home() {
           Projects I&apos;ve built
         </h2>
         <div className='flex flex-col w-full'>
+          <ProjectCard image={'/ordkit.png'} title={'Ordinals Launchpad'} description={'A Bitcoin Ordinals (NFT) minting platform and launchpad. This website has done over $2M in transaction volume'} urls={{
+            github: null,
+            website: "https://ordkit.xyz/",
+          }} />
+          <ProjectCard image={'/tsega.png'} title={'Church Web Platform'} description={'A church website with a blog, allows members to donate and track their donations, register for events and get text message notifications.'} urls={{
+            website: "https://www.tsegabiblechurch.com/",
+            github: "https://github.com/michaelshimeles/church-platform/",
+          }} />
           <ProjectCard image={'/embed.png'} title={'EmbedChain AI'} description={"Store your Vector Embeddings Securely, Cost Effectively, & Permanently."} urls={{
             github: null,
             website: "https://embed.michaelshimeles.com/"
@@ -25,14 +33,6 @@ export default function Home() {
           <ProjectCard image={'/starter.png'} title={'My Nextjs 14 Stater Template'} description={'This starter template saves me time when starting a project.'} urls={{
             github: "https://github.com/michaelshimeles/nextjs14-starter",
             website: null
-          }} />
-          <ProjectCard image={'/ordkit.png'} title={'Ordinals Launchpad'} description={'A Bitcoin Ordinals (NFT) minting platform and launchpad. This website has done over $1.6M in transaction volume'} urls={{
-            github: null,
-            website: "https://ordkit.xyz/",
-          }} />
-          <ProjectCard image={'/tsega.png'} title={'Church Web Platform'} description={'A church website with a blog, allows members to donate and track their donations, register for events and get text message notifications.'} urls={{
-            website: "https://www.tsegabiblechurch.com/",
-            github: "https://github.com/michaelshimeles/church-platform/",
           }} />
           <ProjectCard image={'/npm.png'} title={'Ordconnect NPM Package'} description={'OrdConnect is a JavaScript library for interacting with wallet management and Bitcoin transactions.'} urls={{
             github: "https://github.com/michaelshimeles/ordconnect",
