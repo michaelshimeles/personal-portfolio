@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import { Button } from './ui/button';
 import Link from 'next/link';
-import { GithubIcon, LinkedinIcon, TwitterIcon } from 'lucide-react';
+import { GithubIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from 'lucide-react';
 import { Separator } from "@/components/ui/separator"
 
 const Hero = ({ }) => {
@@ -14,11 +14,15 @@ const Hero = ({ }) => {
                     Hi, I&apos;m Michael Shimeles
                 </h1>
                 <p className="leading-7 [&:not(:first-child)]:mt-3">
-                    A Full Stack Engineer, with experience building production web applications
+                    A Full Stack Engineer & YouTuber, with experience building production web applications
                 </p>
                 <div className='flex justify-center md:justify-start space-x-4'>
+
                     <Link href="https://github.com/michaelshimeles" target='_blank' className='pt-3 cursor-pointer'>
                         <GithubIcon />
+                    </Link>
+                    <Link href="https://www.youtube.com/@rasmic" target='_blank' className='pt-3 cursor-pointer'>
+                        <YoutubeIcon />
                     </Link>
                     <Link href="https://www.linkedin.com/in/michaelshimeles/" target='_blank' className='pt-3 cursor-pointer'>
                         <LinkedinIcon />
@@ -27,9 +31,9 @@ const Hero = ({ }) => {
                         <TwitterIcon />
                     </Link>
                 </div>
-                <Separator className='my-4'/>
+                <Separator className='my-4' />
                 <p className="leading-7">
-                    Looking to hire me? I do freelance work through my agency <Link href="https://www.exoduslabs.xyz/" target='_blank'><span className='font-bold underline'>Exodus Labs</span></Link> or if your company is looking to hire, feel free to contact me at <Link href="mailto:michaelwasihun96@gmail.com"><span className='font-bold underline'>michaelwasihun96@gmail.com</span></Link>
+                    Looking to work with me? Feel free to contact me at <Link href="mailto:michaelwasihun96@gmail.com"><span className='font-bold underline'>michaelwasihun96@gmail.com</span></Link>
                 </p>
             </div>
         </div>
