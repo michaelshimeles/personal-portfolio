@@ -33,7 +33,7 @@ const Hero = ({ }) => {
                 </div>
                 <Separator className='my-4' />
                 <p className="leading-7">
-                    Looking to work with me? Feel free to contact me at <Link href="mailto:michaelwasihun96@gmail.com"><span className='font-bold underline'>michaelwasihun96@gmail.com</span></Link>
+                    Looking to hire me? Feel free to contact me at <Link href="mailto:michaelwasihun96@gmail.com"><span className='font-bold underline'>michaelwasihun96@gmail.com</span></Link>
                 </p>
             </div>
         </div>
